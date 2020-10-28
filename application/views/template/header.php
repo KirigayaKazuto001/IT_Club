@@ -48,8 +48,20 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
+<<<<<<< Updated upstream
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
+=======
+          <li class="active"><a href="<?=base_url(); ?>">Home</a></li>
+          <li class="drop-down"><a href="#">Profile</a></li>
+            <ul>
+              <li><a href="<?= base_url('profile/organisasi'); ?>">Struktur Organisasi</a></li>
+              <li><a href="<?= base_url('profile/visimisi'); ?>">Visi dan Misi</a></li>
+              <li><a href="<?= base_url('profile/fasilitas'); ?>">Fasilitas</a></li>
+            </ul>
+          </li>
+          <!-- <li><a href="about.html">About</a></li>
+>>>>>>> Stashed changes
           <li><a href="courses.html">Courses</a></li>
           <li><a href="trainers.html">Trainers</a></li>
           <li><a href="events.html">Events</a></li>
